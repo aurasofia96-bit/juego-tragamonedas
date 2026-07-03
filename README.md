@@ -1,29 +1,65 @@
-# 🎰 Juego: Tragamonedas (Slot Machine)
+# Juego: Tragamonedas (Slot Machine)
 
-## 📌 ¿De qué trata esto?
-Este es un pequeño juego interactivo para la terminal de comandos que simula una máquina tragamonedas clásica de casino. El programa elige tres frutas o símbolos al azar y, si logras sacar el triple **7️⃣**, ¡te llevas el premio mayor!
+Programa interactivo desarrollado en Python que simula una máquina tragamonedas clásica de casino utilizando emojis en la terminal.
 
-Es un proyecto divertido que creé para practicar el uso de funciones y la generación de datos aleatorios en Python.
+## Descripción
 
----
+El juego interactúa con el usuario permitiéndole girar los rodillos de la máquina de forma continua. El sistema selecciona tres símbolos al azar y verifica si coinciden para otorgar el premio mayor, ofreciendo al jugador la opción de seguir jugando o salir en cualquier momento.
 
-## 🎮 ¿Cómo se juega?
-1. Al arrancar el programa, solo debes presionar **Enter** para hacer girar la máquina.
-2. El sistema te mostrará los 3 símbolos resultantes en pantalla.
-3. Si los tres símbolos son el número 7, aparecerá el mensaje de **¡Jackpot! 💰**.
-4. Al final de cada ronda, el juego te preguntará si quieres seguir jugando o si prefieres salir.
+## Características
 
----
+* Simulación de giros aleatorios con emojis representativos.
+* Sistema de detección de premio mayor (Jackpot) al alinear tres "7️⃣".
+* Ciclo de juego continuo controlado por el usuario.
+* Conversión automática de respuestas a minúsculas para evitar errores de entrada.
 
-## 🛠️ Lo que aprendí y apliqué aquí
-* **🎲 Azar en Python:** Utilicé el módulo `random` (específicamente `random.choices`) para que la máquina elija los emojis de forma completamente aleatoria cada vez.
-* **⚙️ Funciones reutilizables:** Creé una función llamada `play()` para ordenar el código y hacer que toda la lógica del juego se ejecute limpiamente con un solo llamado.
-* **🔄 Bucles infinitos controlados:** Usé un ciclo `while` para que puedas jugar todas las veces que quieras hasta que decidas escribir `n` para salir.
+## Tecnologías
 
----
+* Python 3
+* Módulo `random` (Librería nativa)
 
-## 🚀 Cómo probarlo
-Para jugar en tu computador, asegúrate de tener Python instalado, descarga el archivo del juego y ejecútalo en tu terminal:
+## Cómo ejecutar
 
-```bash
-python juego_tragamonedas_random.py
+1. Clona este repositorio o descarga el archivo.
+2. Abre una terminal en la carpeta del proyecto.
+3. Ejecuta:
+   python juego_tragamonedas_random.py
+
+## Ejemplo de salida
+
+==================================================
+🎰 Máquina Tragamonedas 🎰
+==================================================
+
+Presiona enter para Jugar:
+
+🍉 | 🍇 | 🍒 
+¡Gracias por jugar! 
+
+¿Quieres seguir jugando? y(si)/n(no): y
+
+Presiona enter para Jugar:
+
+7️⃣ | 7️⃣ | 7️⃣ 
+¡Jackpot! 💰 
+
+...
+
+## Lo que practiqué
+
+En este proyecto utilicé:
+* Importación y uso de módulos nativos (`random.choices`)
+* Definición y llamado de funciones (`def`)
+* Bucles `while` para ciclos continuos
+* Validación y transformación de entradas de texto (`.lower()`)
+* Manejo de listas e índices
+* Condicionales lógicas múltiples (`==`)
+
+## Próximas mejoras
+
+* **Sistema de apuestas y saldo:** Agregar un sistema de monedas o créditos iniciales para que el jugador gane o pierda saldo en cada tirada, terminando el juego automáticamente si se queda sin fondos.
+* **Personalización de apuestas:** Permitir al usuario elegir cuánto apostar en cada tiro (por ejemplo: apuesta baja, media o alta) y que el premio del Jackpot se multiplique según esa decisión.
+
+## Estado del proyecto
+
+Proyecto finalizado como práctica de Python.
