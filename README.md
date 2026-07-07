@@ -25,26 +25,6 @@ El juego interactúa con el usuario permitiéndole girar los rodillos de la máq
 3. Ejecuta:
    python juego_tragamonedas_random.py
 
-## Ejemplo de salida
-
-==================================================
-🎰 Máquina Tragamonedas 🎰
-==================================================
-
-Presiona enter para Jugar:
-
-🍉 | 🍇 | 🍒 
-¡Gracias por jugar! 
-
-¿Quieres seguir jugando? y(si)/n(no): y
-
-Presiona enter para Jugar:
-
-7️⃣ | 7️⃣ | 7️⃣ 
-¡Jackpot! 💰 
-
-...
-
 ## Lo que practiqué
 
 En este proyecto utilicé:
