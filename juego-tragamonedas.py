@@ -2,7 +2,7 @@
 # importar bibliotecas
 import random
 # definir valiables y listas
-symbols = ['🍒', ' 🍇', '🍉', '7️⃣']
+symbols = ('🍒', ' 🍇', '🍉', '7️⃣')
 jugar = 'y'
 # definir funciones 
 def play():
